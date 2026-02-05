@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f6f8;
+    color: #111827;
+    font-family: 'Montserrat',sans-serif;
+}
+#navbar{
+    height: 90px;
+    width: 100%;
+    background-color: #111827;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+#logo img{
+    height: 87px;
+    width: 87px;
+}
+#nav a, #login_register a{
+    color: #e5e7eb;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 500;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+#nav a:hover, #login_register a:hover{
+    color: #60a5fa;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+h1,h3{
+    color: #111827;
+    font-family: 'PLayfair Display', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+#login_form, #register_form{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+#login_form label, #register_form label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+#login_form input, #register_form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+}
+.terms{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+    flex-wrap: nowrap;
+}
+.terms label{
+    margin: 0;
+    font-weight: 600;
+    font-size: 12px;
+    color: #374151;
+    white-space: nowrap;
+}
+#login_btn, #register_btn, .add-to-cart-btn{
+    width: 100%;
+    display: block;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+#login_btn:hover, #register_btn:hover, .add-to-cart-btn:hover{
+    background-color: #1e40af;
+}
+#login_form input{
+    margin-bottom: 10px;
+}
+.content-title{
+   display: inline-block;
+   background-color: rgb(106, 200, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.product-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product{
+    width: 220px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgb(62, 41, 88);
+}
+.product img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: #111827;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 20px;
+}
