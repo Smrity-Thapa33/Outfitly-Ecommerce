@@ -60,7 +60,7 @@ h1,h3{
 #login_form input, #register_form input{
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border-radius: 6px;
     border: 1px solid #d1d5db;
 }
@@ -127,4 +127,11 @@ footer{
     color: #e5e7eb;
     text-align: center;
     padding: 20px;
+}
+#firstname-error, #lastname-error, #email-error, #password-error{
+    color: red;
+    font-style: italic;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px;
 }
