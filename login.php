@@ -1,17 +1,16 @@
 <?php
-
-session_start(); 
+session_start();
 include_once "header.php";
 ?>
 
-<div class="container">
+<div class="container-box">
     <div id="login_form">
 
         <?php if (isset($_SESSION['login_error'])): ?>
             <div class="alert alert-error">
                 <?php
                     echo htmlspecialchars($_SESSION['login_error']);
-                    unset($_SESSION['login_error']); 
+                    unset($_SESSION['login_error']);
                 ?>
             </div>
         <?php endif; ?>
